@@ -1,0 +1,14 @@
+replicaCount: 3
+
+image:
+  repository: employee-app
+  tag: latest
+
+service:
+  type: NodePort
+  nodePort: 30080
+
+db:
+  host: ""
+  user: admin
+  name: employee_db
