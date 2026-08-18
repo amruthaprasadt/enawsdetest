@@ -11,7 +11,7 @@ pipeline {
         ECR_REPO = 'employee-app'
         KUBECONFIG = '/var/lib/jenkins/.kube/config'
 
-        DB_HOST = 'employee-db.ck1a6yqigzw8.us-east-1.rds.amazonaws.com'
+        DB_HOST = 'employee-db.c6bwoikgyoks.us-east-1.rds.amazonaws.com'
         DB_USER = 'admin'
         DB_NAME = 'employee_db'
     }
